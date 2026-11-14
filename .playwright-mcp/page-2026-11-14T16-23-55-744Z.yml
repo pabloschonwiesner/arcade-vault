@@ -1,0 +1,51 @@
+- generic [active] [ref=f8e1]:
+  - navigation [ref=f8e2]:
+    - link "ARCADE VAULT" [ref=f8e3] [cursor=pointer]:
+      - /url: /
+    - generic [ref=f8e6]:
+      - link "Biblioteca" [ref=f8e7] [cursor=pointer]:
+        - /url: /
+      - link "Salón de la Fama" [ref=f8e8] [cursor=pointer]:
+        - /url: /salon
+    - generic [ref=f8e9]: CRÉDITOS · 03
+    - link "Iniciar Sesión" [ref=f8e12] [cursor=pointer]:
+      - /url: /auth
+  - complementary [ref=f8e13]:
+    - generic [ref=f8e14]: MENÚ
+    - link "Biblioteca" [ref=f8e15] [cursor=pointer]:
+      - /url: /
+    - link "Salón de la Fama" [ref=f8e16] [cursor=pointer]:
+      - /url: /salon
+    - link "Iniciar Sesión" [ref=f8e17] [cursor=pointer]:
+      - /url: /auth
+    - generic [ref=f8e19]: CRÉDITOS · 03
+  - main [ref=f8e20]:
+    - generic [ref=f8e21]:
+      - generic [ref=f8e22]:
+        - generic [ref=f8e23]:
+          - generic [ref=f8e24]:
+            - generic [ref=f8e25]: Juego
+            - generic [ref=f8e26]: BLOQUE BUSTER
+          - generic [ref=f8e27]:
+            - generic [ref=f8e28]: Puntuación
+            - generic [ref=f8e29]: "000000"
+          - generic [ref=f8e30]:
+            - generic [ref=f8e31]: Vidas
+            - generic [ref=f8e32]: ♥ ♥ ♥
+          - generic [ref=f8e33]:
+            - generic [ref=f8e34]: Nivel
+            - generic [ref=f8e35]: "01"
+        - link "SALIR" [ref=f8e37] [cursor=pointer]:
+          - /url: /games/bloque-buster
+      - generic [ref=f8e38]:
+        - generic [ref=f8e41]:
+          - generic [ref=f8e42]: PRÓXIMAMENTE
+          - generic [ref=f8e43]: BLOQUE BUSTER
+          - generic [ref=f8e44]: INSERTAR MONEDA PARA CONTINUAR
+        - generic [ref=f8e45]:
+          - generic [ref=f8e46]: SEÑAL OK
+          - generic [ref=f8e47]: BLOQUE BUSTER · CRT-83 · 60 HZ
+          - generic [ref=f8e48]: CARGA · 1MB
+  - contentinfo [ref=f8e49]: © 2026 ARCADE VAULT · HECHO CON PIXELES Y NEÓN · v2.6.0
+  - button "Open Next.js Dev Tools" [ref=f8e55] [cursor=pointer]
+  - alert [ref=f8e59]
