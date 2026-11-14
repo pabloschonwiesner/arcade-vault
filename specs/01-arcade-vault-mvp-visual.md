@@ -1,6 +1,6 @@
 # SPEC 01 — Arcade Vault MVP Visual
 
-**State:** Approved  
+**State:** Implemented  
 **Depends on:** —  
 **Date:** 2026-11-12  
 **Objective:** Migrar todas las pantallas del prototipo vanilla a Next.js App Router con navegación completa, auth/scores en localStorage y un reproductor placeholder.
@@ -100,21 +100,21 @@ Cada paso deja el sistema compilando y navegable.
 
 ## Acceptance criteria
 
-- [ ] `npm run dev` arranca sin errores y todas las rutas responden 200
-- [ ] `/` muestra el grid de juegos con thumbnails y categorías
-- [ ] El filtro de categorías en Biblioteca muestra/oculta cards correctamente
-- [ ] El efecto 3D tilt se activa al hacer hover sobre una card
-- [ ] Click en una card navega a `/games/[id]` mostrando los datos correctos de ese juego
-- [ ] `/games/[id]/play` muestra el layout del reproductor con placeholder "PRÓXIMAMENTE", no una pantalla en blanco
-- [ ] `/auth` permite registrarse: ingresando nombre → guarda `av_user` en localStorage → redirige a `/`
-- [ ] `/auth` permite login: ingresando nombre existente → guarda sesión → redirige a `/`
-- [ ] El Nav muestra el nombre del usuario logueado cuando hay sesión activa
-- [ ] Logout borra `av_user` de localStorage y el Nav vuelve a mostrar el link de login
-- [ ] `/salon` muestra tabla de scores con al menos 10 entradas de `seededScores()`
-- [ ] Los tres primeros del Salón tienen estilos gold/silver/bronze
-- [ ] El fondo animado (grid perspectiva + scanlines) se ve en todas las páginas
-- [ ] El Nav en mobile muestra el botón hamburger y el panel se abre/cierra correctamente
-- [ ] Los colores y fuentes coinciden visualmente con el prototipo (`references/templates/Arcade Vault.html`)
+- [x] `npm run dev` arranca sin errores y todas las rutas responden 200
+- [x] `/` muestra el grid de juegos con thumbnails y categorías
+- [x] El filtro de categorías en Biblioteca muestra/oculta cards correctamente
+- [x] El efecto 3D tilt se activa al hacer hover sobre una card
+- [x] Click en una card navega a `/games/[id]` mostrando los datos correctos de ese juego
+- [x] `/games/[id]/play` muestra el layout del reproductor con placeholder "PRÓXIMAMENTE", no una pantalla en blanco
+- [x] `/auth` permite registrarse: ingresando nombre → guarda `av_user` en localStorage → redirige a `/`
+- [x] `/auth` permite login: ingresando nombre existente → guarda sesión → redirige a `/`
+- [x] El Nav muestra el nombre del usuario logueado cuando hay sesión activa
+- [x] Logout borra `av_user` de localStorage y el Nav vuelve a mostrar el link de login
+- [x] `/salon` muestra tabla de scores con al menos 10 entradas de `seededScores()`
+- [x] Los tres primeros del Salón tienen estilos gold/silver/bronze
+- [x] El fondo animado (grid perspectiva + scanlines) se ve en todas las páginas
+- [x] El Nav en mobile muestra el botón hamburger y el panel se abre/cierra correctamente
+- [x] Los colores y fuentes coinciden visualmente con el prototipo (`references/templates/Arcade Vault.html`)
 
 ---
 

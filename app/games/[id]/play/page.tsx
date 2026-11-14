@@ -1,12 +1,15 @@
-"use client"
-
-import { use } from "react"
-import Link from "next/link"
 import { GAMES } from "@/lib/data"
+import Link from "next/link"
 import { notFound } from "next/navigation"
 
-export default function GamePlayer({ params }: { params: Promise<{ id: string }> }) {
-  const { id } = use(params)
+export const instant = false
+
+export function generateStaticParams() {
+  return GAMES.map((game) => ({ id: game.id }))
+}
+
+export default async function GamePlayer({ params }: { params: Promise<{ id: string }> }) {
+  const { id } = await params
   const game = GAMES.find((g) => g.id === id)
   if (!game) notFound()
 

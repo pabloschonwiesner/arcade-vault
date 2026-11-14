@@ -2,6 +2,12 @@ import { GAMES, seededScores } from "@/lib/data"
 import Link from "next/link"
 import { notFound } from "next/navigation"
 
+export const instant = false
+
+export function generateStaticParams() {
+  return GAMES.map((game) => ({ id: game.id }))
+}
+
 export default async function GameDetail({ params }: { params: Promise<{ id: string }> }) {
   const { id } = await params
   const game = GAMES.find((g) => g.id === id)
