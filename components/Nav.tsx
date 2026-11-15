@@ -49,6 +49,7 @@ export default function Nav() {
           <Link href="/" className={isActive("/") ? "active" : ""}>Home</Link>
           <Link href="/biblioteca" className={isActive("/biblioteca") ? "active" : ""}>Biblioteca</Link>
           <Link href="/salon" className={isActive("/salon") ? "active" : ""}>Salón de la Fama</Link>
+          <Link href="/about" className={isActive("/about") ? "active" : ""}>About</Link>
         </div>
 
         <div className="spacer" />
@@ -84,6 +85,7 @@ export default function Nav() {
         <Link href="/" className={isActive("/") ? "active" : ""} onClick={close}>Home</Link>
         <Link href="/biblioteca" className={isActive("/biblioteca") ? "active" : ""} onClick={close}>Biblioteca</Link>
         <Link href="/salon" className={isActive("/salon") ? "active" : ""} onClick={close}>Salón de la Fama</Link>
+        <Link href="/about" className={isActive("/about") ? "active" : ""} onClick={close}>About</Link>
         <Link href="/auth" className={isActive("/auth") ? "active" : ""} onClick={close}>
           {user ? "Cuenta" : "Iniciar Sesión"}
         </Link>
