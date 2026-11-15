@@ -1,6 +1,6 @@
 # SPEC 03 — About Page + Formulario de Contacto con Resend
 
-**State:** Aprobado  
+**State:** Implementado  
 **Depends on:** SPEC 01, SPEC 02  
 **Date:** 2026-11-14  
 **Objective:** Implementar la página `/about` con sección hero + formulario de contacto que envía emails reales via Resend al hacer submit.
